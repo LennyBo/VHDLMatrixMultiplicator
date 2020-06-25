@@ -1,0 +1,16 @@
+Version:
+-------
+nano2019v01e
+- 21.11.19
+- instructions de comparaison
+- instructions de multiplications
+- sous-routines
+- interruption avec vecteur à l'adresse 255
+- RAM de 32 bytes
+- 4 IP de 16 bytes, avec adresse de base dans le package
+- 128 port de 1 bytes
+
+Cette version contient une ROM de démonstration qui
+lit les dip-switch, copie sur les LED et décale les 
+LED tant qu'il y en a une d'allumée. Recommence quand
+toutes les LED sont éteintes.

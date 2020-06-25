@@ -1,0 +1,607 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jan 21 11:49:48 2020
+# Process ID: 15944
+# Current directory: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.runs/synth_1
+# Command line: vivado.exe -log nanoControleur.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source nanoControleur.tcl
+# Log file: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.runs/synth_1/nanoControleur.vds
+# Journal file: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source nanoControleur.tcl -notrace
+Command: synth_design -top nanoControleur -part xc7a35tfgg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12700 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 352.070 ; gain = 100.066
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'nanoControleur' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd:42]
+	Parameter SIMULATION bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'nanoProcesseur' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:20' bound to instance 'nPr_inst' of component 'nanoProcesseur' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd:175]
+INFO: [Synth 8-638] synthesizing module 'nanoProcesseur' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:34]
+INFO: [Synth 8-3491] module 'Instruction_Register' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Instruction_Register.vhd:18' bound to instance 'IR_Inst' of component 'Instruction_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:216]
+INFO: [Synth 8-638] synthesizing module 'Instruction_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Instruction_Register.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'Instruction_Register' (1#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Instruction_Register.vhd:30]
+INFO: [Synth 8-3491] module 'Interrupt_Manager' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/interrupt_manager.vhd:17' bound to instance 'Int_Inst' of component 'Interrupt_Manager' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:228]
+INFO: [Synth 8-638] synthesizing module 'Interrupt_Manager' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/interrupt_manager.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'Interrupt_Manager' (2#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/interrupt_manager.vhd:27]
+INFO: [Synth 8-3491] module 'Sequenceur' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Sequenceur.vhd:24' bound to instance 'Sequenceur_Inst' of component 'Sequenceur' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:237]
+INFO: [Synth 8-638] synthesizing module 'Sequenceur' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Sequenceur.vhd:52]
+INFO: [Synth 8-226] default block is never used [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Sequenceur.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'Sequenceur' (3#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Sequenceur.vhd:52]
+INFO: [Synth 8-3491] module 'Program_Counter' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Program_Counter.vhd:19' bound to instance 'PC_Inst' of component 'Program_Counter' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:260]
+INFO: [Synth 8-638] synthesizing module 'Program_Counter' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Program_Counter.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'Program_Counter' (4#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Program_Counter.vhd:34]
+INFO: [Synth 8-3491] module 'Stack_Register' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Stack_Register.vhd:17' bound to instance 'PC_stack_Inst' of component 'Stack_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:275]
+INFO: [Synth 8-638] synthesizing module 'Stack_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Stack_Register.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'Stack_Register' (5#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Stack_Register.vhd:28]
+INFO: [Synth 8-3491] module 'Operandes_Multiplexer' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Operandes_Multiplexer.vhd:18' bound to instance 'Oper_Mux_Inst' of component 'Operandes_Multiplexer' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:286]
+INFO: [Synth 8-638] synthesizing module 'Operandes_Multiplexer' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Operandes_Multiplexer.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'Operandes_Multiplexer' (6#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Operandes_Multiplexer.vhd:30]
+INFO: [Synth 8-3491] module 'Operandes_Register' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Operandes_Register.vhd:17' bound to instance 'Oper1_Reg_Inst' of component 'Operandes_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:298]
+INFO: [Synth 8-638] synthesizing module 'Operandes_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Operandes_Register.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'Operandes_Register' (7#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Operandes_Register.vhd:27]
+INFO: [Synth 8-3491] module 'Operandes_Register' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Operandes_Register.vhd:17' bound to instance 'Oper2_Reg_Inst' of component 'Operandes_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:308]
+INFO: [Synth 8-3491] module 'ALU' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/ALU.vhd:23' bound to instance 'ALU_Inst' of component 'ALU' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:318]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/ALU.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (8#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/ALU.vhd:35]
+INFO: [Synth 8-3491] module 'Accu_Register' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Accu_Register.vhd:18' bound to instance 'Accu_Reg_Inst' of component 'Accu_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:330]
+INFO: [Synth 8-638] synthesizing module 'Accu_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Accu_Register.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'Accu_Register' (9#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Accu_Register.vhd:30]
+INFO: [Synth 8-3491] module 'Accu_Register' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Accu_Register.vhd:18' bound to instance 'AccuMSB_Reg_Inst' of component 'Accu_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:341]
+INFO: [Synth 8-3491] module 'Status_Register' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Status_Register.vhd:18' bound to instance 'Status_Reg_Inst' of component 'Status_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:352]
+INFO: [Synth 8-638] synthesizing module 'Status_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Status_Register.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'Status_Register' (10#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Status_Register.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'nanoProcesseur' (11#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd:34]
+INFO: [Synth 8-3491] module 'ROM' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/ROM.vhd:24' bound to instance 'ROM_inst' of component 'ROM' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd:188]
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/ROM.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (12#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/ROM.vhd:31]
+INFO: [Synth 8-3491] module 'Data_Multiplexer' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Data_Multiplexer.vhd:20' bound to instance 'Data_Mux_inst' of component 'Data_Multiplexer' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd:194]
+INFO: [Synth 8-638] synthesizing module 'Data_Multiplexer' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Data_Multiplexer.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Data_Multiplexer' (13#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Data_Multiplexer.vhd:40]
+INFO: [Synth 8-3491] module 'Address_Decode' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Address_Decode.vhd:21' bound to instance 'Addr_Decode_inst' of component 'Address_Decode' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd:212]
+INFO: [Synth 8-638] synthesizing module 'Address_Decode' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Address_Decode.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'Address_Decode' (14#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Address_Decode.vhd:33]
+INFO: [Synth 8-3491] module 'RAM' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/RAM.vhd:19' bound to instance 'RAM_inst' of component 'RAM' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd:222]
+INFO: [Synth 8-638] synthesizing module 'RAM' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/RAM.vhd:29]
+WARNING: [Synth 8-6014] Unused sequential element addr_reg_reg was removed.  [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/RAM.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'RAM' (15#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/RAM.vhd:29]
+INFO: [Synth 8-3491] module 'IPMultMat' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:34' bound to instance 'IPMultMat_inst' of component 'IPMultMat' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd:232]
+INFO: [Synth 8-638] synthesizing module 'IPMultMat' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:47]
+INFO: [Synth 8-3491] module 'Addr_decode' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Addr_decode.vhd:34' bound to instance 'decoder' of component 'Addr_decode' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'Addr_decode' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Addr_decode.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'Addr_decode' (16#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Addr_decode.vhd:44]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg.vhd:34' bound to instance 'RegA1' of component 'Reg' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (17#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg.vhd:46]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg.vhd:34' bound to instance 'RegA2' of component 'Reg' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:179]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg.vhd:34' bound to instance 'RegA3' of component 'Reg' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:189]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg.vhd:34' bound to instance 'RegA4' of component 'Reg' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:199]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg.vhd:34' bound to instance 'RegB1' of component 'Reg' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:209]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg.vhd:34' bound to instance 'RegB2' of component 'Reg' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:219]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg.vhd:34' bound to instance 'RegB3' of component 'Reg' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:229]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg.vhd:34' bound to instance 'RegB4' of component 'Reg' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:239]
+INFO: [Synth 8-3491] module 'Mult' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Mult.vhd:34' bound to instance 'multiplacter' of component 'Mult' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:250]
+INFO: [Synth 8-638] synthesizing module 'Mult' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Mult.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'Mult' (18#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Mult.vhd:53]
+INFO: [Synth 8-3491] module 'Reg16To8' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg16To8.vhd:34' bound to instance 'RegC1' of component 'Reg16To8' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:267]
+INFO: [Synth 8-638] synthesizing module 'Reg16To8' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg16To8.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'Reg16To8' (19#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg16To8.vhd:43]
+INFO: [Synth 8-3491] module 'Reg16To8' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg16To8.vhd:34' bound to instance 'RegC2' of component 'Reg16To8' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:274]
+INFO: [Synth 8-3491] module 'Reg16To8' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg16To8.vhd:34' bound to instance 'RegC3' of component 'Reg16To8' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:281]
+INFO: [Synth 8-3491] module 'Reg16To8' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/Reg16To8.vhd:34' bound to instance 'RegC4' of component 'Reg16To8' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:288]
+INFO: [Synth 8-3491] module 'MatrixMultiplexer' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/MatrixMultiplexer.vhd:34' bound to instance 'MM' of component 'MatrixMultiplexer' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:296]
+INFO: [Synth 8-638] synthesizing module 'MatrixMultiplexer' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/MatrixMultiplexer.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'MatrixMultiplexer' (20#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/MatrixMultiplexer.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:317]
+INFO: [Synth 8-256] done synthesizing module 'IPMultMat' (21#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/new/IPMultMat.vhd:47]
+INFO: [Synth 8-3491] module 'Output_Register' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Output_Register.vhd:18' bound to instance 'Port_a_Out_inst' of component 'Output_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd:244]
+INFO: [Synth 8-638] synthesizing module 'Output_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Output_Register.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'Output_Register' (22#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Output_Register.vhd:29]
+INFO: [Synth 8-3491] module 'Output_Register' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Output_Register.vhd:18' bound to instance 'Port_b_Out_inst' of component 'Output_Register' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd:254]
+	Parameter SIMULATION bound to: 0 - type: bool 
+	Parameter DIVN bound to: 250000 - type: integer 
+INFO: [Synth 8-3491] module 'timer' declared at 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/timer.vhd:17' bound to instance 'timer_inst' of component 'timer' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd:265]
+INFO: [Synth 8-638] synthesizing module 'timer' [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/timer.vhd:29]
+	Parameter SIMULATION bound to: 0 - type: bool 
+	Parameter DIVN bound to: 250000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'timer' (23#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/timer.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'nanoControleur' (24#1) [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd:42]
+WARNING: [Synth 8-3331] design IPMultMat has unconnected port CS_i
+WARNING: [Synth 8-3331] design RAM has unconnected port addr_i[7]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr_i[6]
+WARNING: [Synth 8-3331] design RAM has unconnected port addr_i[5]
+WARNING: [Synth 8-3331] design Data_Multiplexer has unconnected port cs_ip_i[3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 407.391 ; gain = 155.387
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 407.391 ; gain = 155.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 407.391 ; gain = 155.387
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tfgg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/constrs_1/new/nanoControleur.xdc]
+Finished Parsing XDC File [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/constrs_1/new/nanoControleur.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/constrs_1/new/nanoControleur.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/nanoControleur_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/nanoControleur_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 747.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 747.754 ; gain = 495.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tfgg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 747.754 ; gain = 495.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 747.754 ; gain = 495.750
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Sequenceur'
+INFO: [Synth 8-5587] ROM size for "oper_sel_o" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "Accu_load_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "AccuMSB_load_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "CCR_load_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "PC_load_o" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IR_load_o" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oper_load_o" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/ALU.vhd:56]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/ALU.vhd:56]
+INFO: [Synth 8-5546] ROM "ALU16enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "CCR_mask" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ir_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "cs_ram_o" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "cs_port_a_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cs_port_b_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "cs_ip_o" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cs_ip_o" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cs_ip_o" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cs_ip_o" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "cs_poussoir_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_o" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  sreset |                             0001 |                               00
+                sir_load |                             0010 |                               01
+              sir_decode |                             0100 |                               10
+          sopcode_decode |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Sequenceur'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 747.754 ; gain = 495.750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 2     
+	   3 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 3     
++---XORs : 
+	   2 Input      9 Bit         XORs := 1     
+	   2 Input      8 Bit         XORs := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	                8 Bit    Registers := 28    
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---RAMs : 
+	              256 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	 122 Input     14 Bit        Muxes := 1     
+	  11 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 18    
+	   4 Input      8 Bit        Muxes := 2     
+	   8 Input      8 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	  16 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 32    
+	   3 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 2     
+	  16 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module nanoControleur 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 3     
+Module Instruction_Register 
+Detailed RTL Component Info : 
++---Registers : 
+	               14 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 1     
+Module Interrupt_Manager 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Sequenceur 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 1     
+Module Program_Counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module Stack_Register 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 1     
+Module Operandes_Multiplexer 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+Module Operandes_Register 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 2     
+	   3 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      9 Bit         XORs := 1     
+	   2 Input      8 Bit         XORs := 1     
++---Muxes : 
+	  11 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	  16 Input      4 Bit        Muxes := 2     
+	  16 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 7     
+	   4 Input      1 Bit        Muxes := 1     
+Module Accu_Register 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Status_Register 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module ROM 
+Detailed RTL Component Info : 
++---Muxes : 
+	 122 Input     14 Bit        Muxes := 1     
+Module Address_Decode 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+Module RAM 
+Detailed RTL Component Info : 
++---RAMs : 
+	              256 Bit         RAMs := 1     
+Module Addr_decode 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   8 Input      8 Bit        Muxes := 2     
+Module Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module Output_Register 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module timer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "ROM_inst/ir_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Addr_Decode_inst/cs_port_a_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Addr_Decode_inst/cs_port_b_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Addr_Decode_inst/cs_poussoir_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "timer_inst/p_o" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 747.754 ; gain = 495.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++---------------+----------------------+-----------+----------------------+----------------+
+|Module Name    | RTL Object           | Inference | Size (Depth x Width) | Primitives     | 
++---------------+----------------------+-----------+----------------------+----------------+
+|nanoControleur | RAM_inst/blocRAM_reg | Implied   | 32 x 8               | RAM32X1S x 8   | 
++---------------+----------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 747.754 ; gain = 495.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 831.152 ; gain = 579.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++---------------+----------------------+-----------+----------------------+----------------+
+|Module Name    | RTL Object           | Inference | Size (Depth x Width) | Primitives     | 
++---------------+----------------------+-----------+----------------------+----------------+
+|nanoControleur | RAM_inst/blocRAM_reg | Implied   | 32 x 8               | RAM32X1S x 8   | 
++---------------+----------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 835.508 ; gain = 583.504
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 835.508 ; gain = 583.504
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 835.508 ; gain = 583.504
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 835.508 ; gain = 583.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 835.508 ; gain = 583.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 835.508 ; gain = 583.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 835.508 ; gain = 583.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |   117|
+|3     |LUT1     |    20|
+|4     |LUT2     |   341|
+|5     |LUT3     |   104|
+|6     |LUT4     |   193|
+|7     |LUT5     |   129|
+|8     |LUT6     |   572|
+|9     |MUXF7    |     2|
+|10    |RAM32X1S |     8|
+|11    |FDCE     |   255|
+|12    |FDPE     |    18|
+|13    |IBUF     |    22|
+|14    |OBUF     |    16|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------------------+---------------------+------+
+|      |Instance             |Module               |Cells |
++------+---------------------+---------------------+------+
+|1     |top                  |                     |  1798|
+|2     |  RAM_inst           |RAM                  |     8|
+|3     |  IPMultMat_inst     |IPMultMat            |   884|
+|4     |    RegA1            |Reg                  |    65|
+|5     |    RegA2            |Reg_3                |    65|
+|6     |    RegA3            |Reg_4                |    62|
+|7     |    RegA4            |Reg_5                |    62|
+|8     |    RegB1            |Reg_6                |    60|
+|9     |    RegB2            |Reg_7                |    61|
+|10    |    RegB3            |Reg_8                |    60|
+|11    |    RegB4            |Reg_9                |    59|
+|12    |    multiplacter     |Mult                 |   390|
+|13    |  Port_a_Out_inst    |Output_Register      |     8|
+|14    |  Port_b_Out_inst    |Output_Register_0    |     8|
+|15    |  nPr_inst           |nanoProcesseur       |   763|
+|16    |    ALU_Inst         |ALU                  |     3|
+|17    |    AccuMSB_Reg_Inst |Accu_Register        |    16|
+|18    |    Accu_Reg_Inst    |Accu_Register_1      |    16|
+|19    |    IR_Inst          |Instruction_Register |   321|
+|20    |    Int_Inst         |Interrupt_Manager    |     4|
+|21    |    Oper1_Reg_Inst   |Operandes_Register   |    91|
+|22    |    Oper2_Reg_Inst   |Operandes_Register_2 |    23|
+|23    |    PC_Inst          |Program_Counter      |   142|
+|24    |    PC_stack_Inst    |Stack_Register       |   121|
+|25    |    Sequenceur_Inst  |Sequenceur           |    13|
+|26    |    Status_Reg_Inst  |Status_Register      |    13|
+|27    |  timer_inst         |timer                |    64|
++------+---------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 835.508 ; gain = 583.504
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 835.508 ; gain = 243.141
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 835.508 ; gain = 583.504
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 149 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  RAM32X1S => RAM32X1S (RAMS32): 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+127 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:47 . Memory (MB): peak = 835.508 ; gain = 596.516
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.runs/synth_1/nanoControleur.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file nanoControleur_utilization_synth.rpt -pb nanoControleur_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 835.508 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 21 11:50:41 2020...

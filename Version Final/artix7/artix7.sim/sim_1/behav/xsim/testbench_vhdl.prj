@@ -1,0 +1,31 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur_package.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/ALU.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/Accu_Register.vhd" \
+"../../../../artix7.srcs/sources_1/new/Addr_decode.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/Address_Decode.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/Data_Multiplexer.vhd" \
+"../../../../artix7.srcs/sources_1/new/IPMultMat.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/Instruction_Register.vhd" \
+"../../../../artix7.srcs/sources_1/new/MatrixMultiplexer.vhd" \
+"../../../../artix7.srcs/sources_1/new/Mult.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/Operandes_Multiplexer.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/Operandes_Register.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/Output_Register.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/Program_Counter.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/RAM.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/ROM.vhd" \
+"../../../../artix7.srcs/sources_1/new/Reg.vhd" \
+"../../../../artix7.srcs/sources_1/new/Reg16To8.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/Sequenceur.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/Stack_Register.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/Status_Register.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/interrupt_manager.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd" \
+"../../../../artix7.srcs/sources_1/imports/nanoProcesseur_src/timer.vhd" \
+"../../../../artix7.srcs/sim_1/imports/Downloads/testbench.vhd" \
+
+# Do not sort compile order
+nosort

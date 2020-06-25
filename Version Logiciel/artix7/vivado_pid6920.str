@@ -1,0 +1,202 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 6920
+License: Customer
+
+Current time: 	Tue Dec 10 10:26:13 CET 2019
+Time zone: 	Central European Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 737 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	lenny.boegli
+User home directory: C:/Users/lenny.boegli
+User working directory: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/lenny.boegli/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/lenny.boegli/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/lenny.boegli/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7/vivado.log
+Vivado journal file location: 	C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7/vivado.jou
+Engine tmp dir: 	C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7/.Xil/Vivado-6920-TIC19-BOEGLIL
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@SRV-Lic1
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	211 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 529 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\DEV\sysnum\projet-sysnum-multiplicateur-de-matrice-ll\nano2019v01e_vide\artix7\artix7.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 78 MB (+79197kb) [00:00:07]
+// [Engine Memory]: 479 MB (+351222kb) [00:00:07]
+// Tcl Message: open_project C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7/artix7.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7/artix7.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7' INFO: [Project 1-313] Project file moved from 'C:/Users/luca.campana/Documents/Systèmes numériques I/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 85 MB (+3000kb) [00:00:10]
+// [Engine Memory]: 584 MB (+84071kb) [00:00:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 601 MB. GUI used memory: 77 MB. Current time: 12/10/19 10:26:16 AM CET
+// Project name: artix7; location: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7; part: xc7a35tfgg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 812.652 ; gain = 106.219 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 616 MB (+3259kb) [00:00:14]
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Dec 10 10:26:24 2019] Launched synth_1... Run output will be captured here: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7/artix7.runs/synth_1/runme.log [Tue Dec 10 10:26:24 2019] Launched impl_1... Run output will be captured here: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7/artix7.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nanoControleur(Structural) (nanoControleur.vhd)]", 1); // B (D, ck)
+// PAPropertyPanels.initPanels (Address_Decode.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nanoControleur(Structural) (nanoControleur.vhd), Addr_Decode_inst : Address_Decode(behavioral) (Address_Decode.vhd)]", 5, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nanoControleur(Structural) (nanoControleur.vhd), Addr_Decode_inst : Address_Decode(behavioral) (Address_Decode.vhd)]", 5, false, false, false, false, false, true); // B (D, ck) - Double Click
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 599ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 44 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nanoControleur(Structural) (nanoControleur.vhd), ROM_inst : ROM(Behavioral) (ROM.vhd)]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, nanoControleur(Structural) (nanoControleur.vhd), ROM_inst : ROM(Behavioral) (ROM.vhd)]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("ROM.vhd", 185, 105); // ce (w, ck)
+selectCodeEditor("ROM.vhd", 185, 105, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("ROM.vhd", 173, 127); // ce (w, ck)
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("ROM.vhd", 177, 117); // ce (w, ck)
+selectCodeEditor("ROM.vhd", 174, 115, false, false, false, false, true); // ce (w, ck) - Double Click
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 77 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// [Engine Memory]: 1,291 MB (+675304kb) [00:02:58]
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A07EF0 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,291 MB. GUI used memory: 49 MB. Current time: 12/10/19 10:29:02 AM CET
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7/artix7.runs/impl_1/nanoControleur.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7/artix7.runs/impl_1/nanoControleur.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)

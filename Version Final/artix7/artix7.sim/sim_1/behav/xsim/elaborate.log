@@ -1,0 +1,7 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 1e345d01aed547a0991b199625322bb2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot testbench_behav xil_defaultlib.testbench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-665] expression has 8 elements ; formal poussoir_i expects 4 [C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sim_1/imports/Downloads/testbench.vhd:64]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit testbench in library work failed.

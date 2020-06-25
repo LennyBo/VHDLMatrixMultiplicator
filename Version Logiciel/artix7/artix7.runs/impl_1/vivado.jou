@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jan  7 10:24:27 2020
+# Process ID: 15028
+# Current directory: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7/artix7.runs/impl_1
+# Command line: vivado.exe -log nanoControleur.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source nanoControleur.tcl -notrace
+# Log file: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7/artix7.runs/impl_1/nanoControleur.vdi
+# Journal file: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/nano2019v01e_vide/artix7/artix7.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source nanoControleur.tcl -notrace

@@ -1,0 +1,119 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jan 16 10:20:48 2020
+# Process ID: 12732
+# Current directory: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9372 C:\DEV\sysnum\projet-sysnum-multiplicateur-de-matrice-ll\Version Materiel\artix7\artix7.xpr
+# Log file: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/vivado.log
+# Journal file: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2338] Canceling the changes to the IP catalog. Reverting the catalog back to its previous state.
+INFO: [IP_Floupdate_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj testbench_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 1e345d01aed547a0991b199625322bb2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot testbench_behav xil_defaultlib.testbench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Note: La simulation est en cours
+Time: 0 ps  Iteration: 0  Process: /testbench/run  File: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.srcs/sim_1/imports/Downloads/testbench.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 834.672 ; gain = 35.055
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj testbench_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 1e345d01aed547a0991b199625322bb2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot testbench_behav xil_defaultlib.testbench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Note: La simulation est en cours
+Time: 0 ps  Iteration: 0  Process: /testbench/run  File: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.srcs/sim_1/imports/Downloads/testbench.vhd
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 838.367 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj testbench_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 1e345d01aed547a0991b199625322bb2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot testbench_behav xil_defaultlib.testbench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Note: La simulation est en cours
+Time: 0 ps  Iteration: 0  Process: /testbench/run  File: C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Materiel/artix7/artix7.srcs/sim_1/imports/Downloads/testbench.vhd
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 838.367 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 16 10:24:00 2020...

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tfgg484-1" LaunchTime="1578386952">
+  <File Type="BITSTR-BMM" Name="nanoControleur_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="nanoControleur_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="nanoControleur_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="nanoControleur_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="nanoControleur.tcl"/>
+  <File Type="OPT-TIMING" Name="nanoControleur_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="nanoControleur_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="nanoControleur_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="nanoControleur_reports.tcl"/>
+  <File Type="OPT-DRC" Name="nanoControleur_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="nanoControleur.hwdef"/>
+  <File Type="PWROPT-DCP" Name="nanoControleur_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="nanoControleur_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="nanoControleur_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="nanoControleur_placed.dcp"/>
+  <File Type="PLACE-IO" Name="nanoControleur_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="nanoControleur_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="nanoControleur_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="nanoControleur_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="nanoControleur_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="nanoControleur_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="nanoControleur_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="nanoControleur.bgn"/>
+  <File Type="PLACE-TIMING" Name="nanoControleur_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="nanoControleur_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="nanoControleur.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="nanoControleur_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="nanoControleur_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="nanoControleur_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="nanoControleur.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="nanoControleur_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="nanoControleur_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="nanoControleur_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="nanoControleur_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="nanoControleur_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="nanoControleur_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="nanoControleur.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="nanoControleur_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="nanoControleur.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="nanoControleur_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="nanoControleur_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="nanoControleur.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="nanoControleur_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="nanoControleur_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="nanoControleur_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="nanoControleur_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="nanoControleur_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="nanoControleur_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="nanoControleur_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="nanoControleur_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="nanoControleur_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="nanoControleur_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="nanoControleur_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="nanoControleur_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="nanoControleur_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="nanoControleur_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="nanoControleur_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="nanoControleur_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="nanoControleur_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="nanoControleur_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="nanoControleur_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="nanoControleur.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="nanoControleur_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="nanoControleur.rbt"/>
+  <File Type="BITSTR-NKY" Name="nanoControleur.nky"/>
+  <File Type="BG-DRC" Name="nanoControleur.drc"/>
+  <File Type="RDI-RDI" Name="nanoControleur.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/nanoProcesseur_package.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/nanoProcesseur_package.vhd"/>
+        <Attr Name="ImportTime" Val="1417513996"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/ALU.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/ALU.vhd"/>
+        <Attr Name="ImportTime" Val="1418452674"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/Accu_Register.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/Accu_Register.vhd"/>
+        <Attr Name="ImportTime" Val="1418459072"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/Address_Decode.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/Address_Decode.vhd"/>
+        <Attr Name="ImportTime" Val="1420617776"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/Data_Multiplexer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/Data_Multiplexer.vhd"/>
+        <Attr Name="ImportTime" Val="1420617836"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/Instruction_Register.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/Instruction_Register.vhd"/>
+        <Attr Name="ImportTime" Val="1416826315"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/Operandes_Multiplexer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/Operandes_Multiplexer.vhd"/>
+        <Attr Name="ImportTime" Val="1418451674"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/Operandes_Register.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/Operandes_Register.vhd"/>
+        <Attr Name="ImportTime" Val="1418459057"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/Output_Register.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/Output_Register.vhd"/>
+        <Attr Name="ImportTime" Val="1418459001"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/Program_Counter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/Program_Counter.vhd"/>
+        <Attr Name="ImportTime" Val="1418459045"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/RAM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/RAM.vhd"/>
+        <Attr Name="ImportTime" Val="1418453489"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/ROM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/ROM.vhd"/>
+        <Attr Name="ImportTime" Val="1418640066"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/Sequenceur.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/Sequenceur.vhd"/>
+        <Attr Name="ImportTime" Val="1418459035"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/Stack_Register.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/Status_Register.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/Status_Register.vhd"/>
+        <Attr Name="ImportTime" Val="1418459079"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/interrupt_manager.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/nanoProcesseur.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/nanoProcesseur.vhd"/>
+        <Attr Name="ImportTime" Val="1414404247"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/timer.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../nanoProcesseur_src/nanoControleur.vhd"/>
+        <Attr Name="ImportTime" Val="1420617853"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="nanoControleur"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/nanoControleur.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../projet1/projet1.srcs/constrs_1/new/nanoControleur.xdc"/>
+        <Attr Name="ImportTime" Val="1420627586"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/nanoControleur.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

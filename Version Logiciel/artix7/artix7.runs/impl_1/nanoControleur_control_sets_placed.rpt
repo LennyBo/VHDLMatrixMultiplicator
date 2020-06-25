@@ -1,0 +1,83 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue Jan  7 10:25:09 2020
+| Host         : TIC19-BOEGLIL running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file nanoControleur_control_sets_placed.rpt
+| Design       : nanoControleur
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    17 |
+| Unused register locations in slices containing registers |    14 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      8 |            1 |
+|    16+ |           15 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              52 |            8 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             382 |           82 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+-----------------------------------------+------------------------------+------------------+----------------+
+|   Clock Signal   |              Enable Signal              |       Set/Reset Signal       | Slice Load Count | Bel Load Count |
++------------------+-----------------------------------------+------------------------------+------------------+----------------+
+|  clk_i_IBUF_BUFG | nPr_inst/Sequenceur_Inst/out[2]         | nPr_inst/PC_stack_Inst/AR[0] |                1 |              2 |
+|  clk_i_IBUF_BUFG | nPr_inst/Sequenceur_Inst/E[0]           | nPr_inst/PC_stack_Inst/AR[0] |                3 |              8 |
+|  clk_i_IBUF_BUFG | nPr_inst/IR_Inst/p_1_in__0              |                              |                2 |             16 |
+|  clk_i_IBUF_BUFG | nPr_inst/IR_Inst/E[0]                   | nPr_inst/PC_stack_Inst/AR[0] |                4 |             16 |
+|  clk_i_IBUF_BUFG | nPr_inst/IR_Inst/Accu_reg_reg[7]_2[0]   | nPr_inst/PC_stack_Inst/AR[0] |                6 |             16 |
+|  clk_i_IBUF_BUFG | nPr_inst/IR_Inst/PC_counter_reg[0][0]   | nPr_inst/PC_stack_Inst/AR[0] |                5 |             16 |
+|  clk_i_IBUF_BUFG | nPr_inst/IR_Inst/data_o_reg[7]_0[0]     | nPr_inst/PC_stack_Inst/AR[0] |                1 |             16 |
+|  clk_i_IBUF_BUFG | nPr_inst/IR_Inst/ip3_data_reg[0][0]     | nPr_inst/PC_stack_Inst/AR[0] |                3 |             16 |
+|  clk_i_IBUF_BUFG | nPr_inst/IR_Inst/ip1_data_reg[0][0]     | nPr_inst/PC_stack_Inst/AR[0] |                3 |             16 |
+|  clk_i_IBUF_BUFG | nPr_inst/IR_Inst/ip2_data_reg[0][0]     | nPr_inst/PC_stack_Inst/AR[0] |                3 |             16 |
+|  clk_i_IBUF_BUFG | nPr_inst/IR_Inst/ip0_data_reg[0][0]     | nPr_inst/PC_stack_Inst/AR[0] |                4 |             16 |
+|  clk_i_IBUF_BUFG | nPr_inst/IR_Inst/data_o_reg[7][0]       | nPr_inst/PC_stack_Inst/AR[0] |                3 |             16 |
+|  clk_i_IBUF_BUFG | nPr_inst/Sequenceur_Inst/out[0]         | nPr_inst/PC_stack_Inst/AR[0] |               11 |             28 |
+|  clk_i_IBUF_BUFG | nPr_inst/Sequenceur_Inst/out[1]         | nPr_inst/PC_stack_Inst/AR[0] |               10 |             32 |
+|  clk_i_IBUF_BUFG | nPr_inst/Sequenceur_Inst/int_pulse      | nPr_inst/PC_stack_Inst/AR[0] |               10 |             40 |
+|  clk_i_IBUF_BUFG |                                         | nPr_inst/PC_stack_Inst/AR[0] |                8 |             52 |
+|  clk_i_IBUF_BUFG | nPr_inst/IR_Inst/stack_reg_reg[7][7][0] | nPr_inst/PC_stack_Inst/AR[0] |               15 |            128 |
++------------------+-----------------------------------------+------------------------------+------------------+----------------+
+
+

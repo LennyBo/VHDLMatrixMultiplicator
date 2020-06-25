@@ -1,0 +1,25 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoProcesseur_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Address_Decode.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Address_Decode
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Data_Multiplexer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Data_Multiplexer
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Instruction_Register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Register
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Operandes_Multiplexer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Operandes_Multiplexer
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Output_Register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Output_Register
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ROM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/Sequenceur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Sequenceur
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/interrupt_manager.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Interrupt_Manager
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sources_1/imports/nanoProcesseur_src/nanoControleur.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity nanoControleur
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/DEV/sysnum/projet-sysnum-multiplicateur-de-matrice-ll/Version Final/artix7/artix7.srcs/sim_1/imports/Downloads/testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity testbench
